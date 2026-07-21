@@ -5,6 +5,9 @@ import App from "./App";
 import "./index.css";
 import { Toaster } from "react-hot-toast";
 import TaskProvider from "./context/TaskProvider";
+import { applyTheme, getStoredSettings } from "./utils/settings";
+
+applyTheme(getStoredSettings().theme);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

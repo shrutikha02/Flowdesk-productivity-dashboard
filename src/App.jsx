@@ -15,7 +15,7 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <Routes>
-      {/* Login */}
+     
       <Route path="/login" element={<Login />} />
 
      
@@ -27,6 +27,7 @@ function App() {
         <Route path="analytics" element={<Analytics />} />
         <Route path="profile" element={<Profile />} />
         <Route path="settings" element={<Settings />} />
+        
       </Route>
 
      
